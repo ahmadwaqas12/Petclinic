@@ -34,8 +34,9 @@
     <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
     <spring-format.version>0.0.43</spring-format.version>
 
-    <!-- Add the IP of the VM -->
-    <sonar.host.url>http://10.0.2.15:9000</sonar.host.url>
+    <!-- Add the local URLs for Jenkins and SonarQube -->
+    <sonar.host.url>http://localhost:9000</sonar.host.url>
+    <jenkins.url>http://localhost:8080</jenkins.url> <!-- Example for Jenkins URL -->
   </properties>
 
   <dependencies>
